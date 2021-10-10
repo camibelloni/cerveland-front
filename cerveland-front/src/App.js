@@ -1,6 +1,9 @@
 import './App.css';
 import React from 'react';
-import TotalContentRow from './components/TotalContentRow';
+import TotalUsers from './components/TotalUsers';
+import TotalProducts from './components/TotalProducts';
+import TotalCategories from './components/TotalCategories'
+
 
 function App() {
 
@@ -9,7 +12,9 @@ function App() {
 
     <div className="App">
       <header className="App-header">
-        <TotalContentRow />
+        <TotalUsers />
+        <TotalProducts />
+        <TotalCategories />
       </header>
     </div>
 

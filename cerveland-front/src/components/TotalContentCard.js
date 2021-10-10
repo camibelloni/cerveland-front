@@ -9,7 +9,6 @@ function TotalContentCard(props) {
                 <div className="card-body">
                     <div className="row no-gutters align-items-center">
                         <div className="col mr-2">
-                            <div className=""> {props.title}</div>
                             <div className="h5 mb-0 font-weight-bold text-gray-800">{props.quantity}</div>
                         </div>
                     </div>
@@ -21,7 +20,7 @@ function TotalContentCard(props) {
 /* DEFINICIÓN DE PROPIEDADES POR DEFAULT */
 
 TotalContentCard.defaultProps = {
-    title: 'No Title',
+  //  title: 'No Title',
     quantity: 'No quatity'
 
 }
