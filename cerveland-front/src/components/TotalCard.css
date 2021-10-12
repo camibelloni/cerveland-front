@@ -1,0 +1,9 @@
+div.total-products-container{
+    border: 2px solid #226023;
+    border-radius: 5px;;
+    padding: 5px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    font-weight: bold;
+    }

@@ -1,8 +1,8 @@
 import './App.css';
 import React from 'react';
-import TotalUsers from './components/TotalUsers';
-import TotalProducts from './components/TotalProducts';
-import TotalCategories from './components/TotalCategories'
+import TotalCardsRow from './components/TotalCardsRow';
+import GroupProductsByCategory from './components/GroupProductsByCategory';
+
 
 
 function App() {
@@ -11,12 +11,16 @@ function App() {
     <React.Fragment>
 
     <div className="App">
-      <header className="App-header">
-        <TotalUsers />
-        <TotalProducts />
-        <TotalCategories />
-      </header>
+      
+      <div className="App-header">
+        <TotalCardsRow />
+      </div>
+
+      <div className="App-header">
+          <GroupProductsByCategory />
+      </div>
     </div>
+
 
     </React.Fragment>
 
